@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Label
@@ -27,6 +28,7 @@ import androidx.compose.material.icons.filled.Link
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.SaveAlt
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Upload
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.AssistChip
@@ -192,26 +194,32 @@ fun MainScreen(viewModel: MainViewModel = hiltViewModel()) {
             },
             snackbarHost = { SnackbarHost(snackbarHostState) }
         ) { padding ->
-            Box(modifier = Modifier.fillMaxSize().padding(padding)) {
-                if (state.deeplinks.isEmpty()) {
-                    EmptyState()
-                } else {
-                    DeeplinkList(
-                        items = state.deeplinks,
-                        showTagChip = state.selectedFilter is TagFilter.All,
-                        onItemClick = { d ->
-                            DeeplinkLauncher.launch(context, d.url)?.let { msg ->
-                                scope.launch { snackbarHostState.showSnackbar(msg) }
-                            }
-                        },
-                        onItemLongClick = { d ->
-                            clipboard.setText(AnnotatedString(d.url))
-                            haptics.performHapticFeedback(HapticFeedbackType.LongPress)
-                            scope.launch { snackbarHostState.showSnackbar("Deeplink copied") }
-                        },
-                        onEdit = { viewModel.openEditSheet(it) },
-                        onDelete = { viewModel.requestDeleteDeeplink(it) }
-                    )
+            Column(modifier = Modifier.fillMaxSize().padding(padding)) {
+                SearchField(
+                    query = state.searchQuery,
+                    onQueryChange = viewModel::onSearchQueryChange
+                )
+                Box(modifier = Modifier.weight(1f)) {
+                    if (state.deeplinks.isEmpty()) {
+                        EmptyState(searching = state.searchQuery.isNotBlank())
+                    } else {
+                        DeeplinkList(
+                            items = state.deeplinks,
+                            showTagChip = state.selectedFilter is TagFilter.All,
+                            onItemClick = { d ->
+                                DeeplinkLauncher.launch(context, d.url)?.let { msg ->
+                                    scope.launch { snackbarHostState.showSnackbar(msg) }
+                                }
+                            },
+                            onItemLongClick = { d ->
+                                clipboard.setText(AnnotatedString(d.url))
+                                haptics.performHapticFeedback(HapticFeedbackType.LongPress)
+                                scope.launch { snackbarHostState.showSnackbar("Deeplink copied") }
+                            },
+                            onEdit = { viewModel.openEditSheet(it) },
+                            onDelete = { viewModel.requestDeleteDeeplink(it) }
+                        )
+                    }
                 }
             }
         }
@@ -273,7 +281,31 @@ fun MainScreen(viewModel: MainViewModel = hiltViewModel()) {
 }
 
 @Composable
-private fun EmptyState() {
+private fun SearchField(
+    query: String,
+    onQueryChange: (String) -> Unit
+) {
+    OutlinedTextField(
+        value = query,
+        onValueChange = onQueryChange,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 8.dp),
+        placeholder = { Text("Search deeplinks") },
+        leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
+        trailingIcon = {
+            if (query.isNotEmpty()) {
+                IconButton(onClick = { onQueryChange("") }) {
+                    Icon(Icons.Filled.Close, contentDescription = "Clear search")
+                }
+            }
+        },
+        singleLine = true
+    )
+}
+
+@Composable
+private fun EmptyState(searching: Boolean) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Icon(
@@ -281,9 +313,12 @@ private fun EmptyState() {
                 contentDescription = null,
                 modifier = Modifier.padding(8.dp)
             )
-            Text("No deeplinks yet", style = MaterialTheme.typography.titleMedium)
             Text(
-                "Tap + to add one",
+                if (searching) "No deeplinks match your search" else "No deeplinks yet",
+                style = MaterialTheme.typography.titleMedium
+            )
+            Text(
+                if (searching) "Try a different term" else "Tap + to add one",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )

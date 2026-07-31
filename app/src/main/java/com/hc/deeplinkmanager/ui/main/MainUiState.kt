@@ -19,6 +19,7 @@ data class MainUiState(
     val tags: List<TagEntity> = emptyList(),
     val deeplinks: List<DeeplinkWithTag> = emptyList(),
     val selectedFilter: TagFilter = TagFilter.All,
+    val searchQuery: String = "",
     val sheet: SheetState = SheetState.Hidden,
     val pendingDeleteDeeplink: DeeplinkEntity? = null,
     val pendingDeleteTag: TagEntity? = null,

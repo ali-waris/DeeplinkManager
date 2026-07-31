@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.hc.deeplinkmanager.data.local.DeeplinkEntity
+import com.hc.deeplinkmanager.data.local.DeeplinkWithTag
 import com.hc.deeplinkmanager.data.local.TagEntity
 import com.hc.deeplinkmanager.data.repo.DeeplinkRepository
 import com.hc.deeplinkmanager.data.repo.TagRepository
@@ -58,13 +59,17 @@ class MainViewModel @Inject constructor(
     ) { internal, filter, tags, deeplinks ->
         internal.copy(
             tags = tags,
-            deeplinks = deeplinks,
+            deeplinks = filterBySearch(deeplinks, internal.searchQuery),
             selectedFilter = filter
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), MainUiState())
 
     fun selectFilter(filter: TagFilter) {
         _filter.value = filter
+    }
+
+    fun onSearchQueryChange(query: String) {
+        _internal.update { it.copy(searchQuery = query) }
     }
 
     fun openAddSheet() {
@@ -282,5 +287,14 @@ class MainViewModel @Inject constructor(
             _internal.update { it.copy(transientMessage = msg) }
             ImportResult.Error(msg)
         }
+    }
+}
+
+private fun filterBySearch(deeplinks: List<DeeplinkWithTag>, searchQuery: String): List<DeeplinkWithTag> {
+    val query = searchQuery.trim()
+    if (query.isEmpty()) return deeplinks
+    return deeplinks.filter {
+        it.deeplink.url.contains(query, ignoreCase = true) ||
+            it.deeplink.name.contains(query, ignoreCase = true)
     }
 }

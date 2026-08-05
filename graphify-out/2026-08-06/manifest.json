@@ -1,0 +1,132 @@
+{
+  "app/build.gradle.kts": {
+    "mtime": 1785511666.5116782,
+    "ast_hash": "e97f4355504ee2db84b5dc951426449a",
+    "semantic_hash": "e97f4355504ee2db84b5dc951426449a"
+  },
+  "app/release/baselineProfiles/0/app-release.dm": {
+    "mtime": 1785511666.51171,
+    "ast_hash": "6f0558da226e42c0f0b51474aed593d1",
+    "semantic_hash": "6f0558da226e42c0f0b51474aed593d1"
+  },
+  "app/release/baselineProfiles/1/app-release.dm": {
+    "mtime": 1785511666.51171,
+    "ast_hash": "78dbb62a1a1b0814e496d25ff9a13ee7",
+    "semantic_hash": "78dbb62a1a1b0814e496d25ff9a13ee7"
+  },
+  "app/release/output-metadata.json": {
+    "mtime": 1785511666.533936,
+    "ast_hash": "b1d0cf76fa6cbd5f298726c7a1ac1644",
+    "semantic_hash": "b1d0cf76fa6cbd5f298726c7a1ac1644"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/DeeplinkApp.kt": {
+    "mtime": 1785511666.5356393,
+    "ast_hash": "8f2acfc5b8577f40c3e0ae2e913dc370",
+    "semantic_hash": "8f2acfc5b8577f40c3e0ae2e913dc370"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt": {
+    "mtime": 1785511666.5356734,
+    "ast_hash": "bc9e7d3fa9ed15e48c871a57ca71eac2",
+    "semantic_hash": "bc9e7d3fa9ed15e48c871a57ca71eac2"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/local/Daos.kt": {
+    "mtime": 1785511666.5356991,
+    "ast_hash": "7d82aadf4c96ec5acda146585a05bdc4",
+    "semantic_hash": "7d82aadf4c96ec5acda146585a05bdc4"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/local/DeeplinkDatabase.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "102785a3c7d8063256383ad705a1e5bf",
+    "semantic_hash": "102785a3c7d8063256383ad705a1e5bf"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/local/DeeplinkEntity.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "27352acfe9fd56cc85bc94e2bb4104eb",
+    "semantic_hash": "27352acfe9fd56cc85bc94e2bb4104eb"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/local/DeeplinkWithTag.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "0602ce8a285efda2fc606a92e1dfef39",
+    "semantic_hash": "0602ce8a285efda2fc606a92e1dfef39"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/local/TagEntity.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "5b2e723ed740eb84825435ba2cb0ef3f",
+    "semantic_hash": "5b2e723ed740eb84825435ba2cb0ef3f"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/data/repo/Repositories.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "2f8f4011e77a24f8549f0b39ed6f4f23",
+    "semantic_hash": "2f8f4011e77a24f8549f0b39ed6f4f23"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/di/AppModules.kt": {
+    "mtime": 1785511666.53573,
+    "ast_hash": "a8e3ce5d1dea1b923991d8a80b338dfb",
+    "semantic_hash": "a8e3ce5d1dea1b923991d8a80b338dfb"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt": {
+    "mtime": 1785512275.0655222,
+    "ast_hash": "041d52c81888d8f75670ceb65e060302",
+    "semantic_hash": "041d52c81888d8f75670ceb65e060302"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainUiState.kt": {
+    "mtime": 1785512244.9221745,
+    "ast_hash": "f7cf09ff2c988cd69a584c29ae67a536",
+    "semantic_hash": "f7cf09ff2c988cd69a584c29ae67a536"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainViewModel.kt": {
+    "mtime": 1785513150.4619532,
+    "ast_hash": "2538dfe6e583abd23b5f65161ee8bdd2",
+    "semantic_hash": "2538dfe6e583abd23b5f65161ee8bdd2"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/ui/theme/Theme.kt": {
+    "mtime": 1785511666.5359554,
+    "ast_hash": "fa0a6e9e474cbeb72805feaf1dfbd989",
+    "semantic_hash": "fa0a6e9e474cbeb72805feaf1dfbd989"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/util/CsvExporter.kt": {
+    "mtime": 1785511666.5359554,
+    "ast_hash": "ab828dec5f5c6fcaf8471766cbc30216",
+    "semantic_hash": "ab828dec5f5c6fcaf8471766cbc30216"
+  },
+  "app/src/main/java/com/hc/deeplinkmanager/util/DeeplinkLauncher.kt": {
+    "mtime": 1785511666.5360787,
+    "ast_hash": "146404b231d9476e09d6391991cff47f",
+    "semantic_hash": "146404b231d9476e09d6391991cff47f"
+  },
+  "build.gradle.kts": {
+    "mtime": 1785511666.5364478,
+    "ast_hash": "1d1d657af2639d98af581dbbd9680f38",
+    "semantic_hash": "1d1d657af2639d98af581dbbd9680f38"
+  },
+  "gradlew": {
+    "mtime": 1785511666.536686,
+    "ast_hash": "266606e78242737ef3da02a80ea0564d",
+    "semantic_hash": "266606e78242737ef3da02a80ea0564d"
+  },
+  "settings.gradle.kts": {
+    "mtime": 1785511666.536686,
+    "ast_hash": "fccc1dab125a71a6e18dcf5f12429605",
+    "semantic_hash": "fccc1dab125a71a6e18dcf5f12429605"
+  },
+  "AGENTS.md": {
+    "mtime": 1785511893.4084988,
+    "ast_hash": "52eafc2f5d04a031534dfeda17652099",
+    "semantic_hash": "52eafc2f5d04a031534dfeda17652099"
+  },
+  "README.md": {
+    "mtime": 1785511666.5114043,
+    "ast_hash": "3b22615e717f257f13823462e290a70f",
+    "semantic_hash": "3b22615e717f257f13823462e290a70f"
+  },
+  "app/src/debug/mipmap-xxxhdpi/ic_launcher.webp": {
+    "mtime": 1785511666.5355449,
+    "ast_hash": "54ab624970c86c2146e76b93f27586f7",
+    "semantic_hash": "54ab624970c86c2146e76b93f27586f7"
+  },
+  "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp": {
+    "mtime": 1785511666.5363097,
+    "ast_hash": "54ab624970c86c2146e76b93f27586f7",
+    "semantic_hash": "54ab624970c86c2146e76b93f27586f7"
+  }
+}

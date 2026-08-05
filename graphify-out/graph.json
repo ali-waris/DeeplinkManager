@@ -49,6 +49,40 @@
   },
   "nodes": [
     {
+      "label": "graphify.js",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_plugins_graphify",
+      "community": 18,
+      "community_name": "graphify.js",
+      "norm_label": "graphify.js"
+    },
+    {
+      "label": "GraphifyPlugin()",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "opencode_plugins_graphify_graphifyplugin",
+      "community": 18,
+      "community_name": "graphify.js",
+      "norm_label": "graphifyplugin()"
+    },
+    {
+      "label": "IMPORTANT: keep the reminder string free of backticks and $(...) constructs.",
+      "file_type": "rationale",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "opencode_plugins_graphify_rationale_4",
+      "community": 18,
+      "community_name": "graphify.js",
+      "norm_label": "important: keep the reminder string free of backticks and $(...) constructs."
+    },
+    {
       "label": "app/build.gradle.kts",
       "file_type": "code",
       "source_file": "app/build.gradle.kts",
@@ -56,6 +90,7 @@
       "_origin": "ast",
       "id": "app_build_gradle",
       "community": 14,
+      "community_name": "app/build.gradle.kts",
       "norm_label": "app/build.gradle.kts"
     },
     {
@@ -66,6 +101,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_deeplinkapp",
       "community": 12,
+      "community_name": "DeeplinkApp",
       "norm_label": "deeplinkapp.kt"
     },
     {
@@ -78,6 +114,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_deeplinkapp_deeplinkapp",
       "community": 12,
+      "community_name": "DeeplinkApp",
       "norm_label": "deeplinkapp"
     },
     {
@@ -88,6 +125,7 @@
       "_origin": "ast",
       "id": "application",
       "community": 12,
+      "community_name": "DeeplinkApp",
       "norm_label": "application"
     },
     {
@@ -98,18 +136,20 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "mainactivity.kt"
     },
     {
       "label": "MainActivity",
       "file_type": "code",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L11",
+      "source_location": "L14",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "mainactivity"
     },
     {
@@ -120,17 +160,30 @@
       "_origin": "ast",
       "id": "componentactivity",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "componentactivity"
+    },
+    {
+      "label": "MainViewModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_kt_mainviewmodel",
+      "community": 9,
+      "community_name": "MainActivity",
+      "norm_label": "mainviewmodel"
     },
     {
       "label": ".onCreate()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L13",
+      "source_location": "L19",
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_oncreate",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": ".oncreate()"
     },
     {
@@ -141,7 +194,43 @@
       "_origin": "ast",
       "id": "bundle",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "bundle"
+    },
+    {
+      "label": ".onNewIntent()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_onnewintent",
+      "community": 9,
+      "community_name": "MainActivity",
+      "norm_label": ".onnewintent()"
+    },
+    {
+      "label": "Intent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "intent",
+      "community": 9,
+      "community_name": "MainActivity",
+      "norm_label": "intent"
+    },
+    {
+      "label": ".handleShareIntent()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L36",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_handleshareintent",
+      "community": 9,
+      "community_name": "MainActivity",
+      "norm_label": ".handleshareintent()"
     },
     {
       "label": "Daos.kt",
@@ -150,7 +239,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "daos.kt"
     },
     {
@@ -163,6 +253,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": "tagdao"
     },
     {
@@ -174,6 +265,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_observeall",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".observeall()"
     },
     {
@@ -184,6 +276,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_kt_flow",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": "flow"
     },
     {
@@ -195,6 +288,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_getbyid",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".getbyid()"
     },
     {
@@ -206,6 +300,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_findbyname",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".findbyname()"
     },
     {
@@ -217,6 +312,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_observedeeplinkcount",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observedeeplinkcount()"
     },
     {
@@ -228,6 +324,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_insert",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".insert()"
     },
     {
@@ -239,6 +336,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_update",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".update()"
     },
     {
@@ -250,6 +348,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_tagdao_delete",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".delete()"
     },
     {
@@ -261,7 +360,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "deeplinkdao"
     },
     {
@@ -273,6 +373,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_observeallwithtag",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observeallwithtag()"
     },
     {
@@ -284,6 +385,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_observebytagwithtag",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observebytagwithtag()"
     },
     {
@@ -294,7 +396,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_insert",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".insert()"
     },
     {
@@ -305,7 +408,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_update",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".update()"
     },
     {
@@ -316,7 +420,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_delete",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".delete()"
     },
     {
@@ -327,7 +432,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_reassigntag",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".reassigntag()"
     },
     {
@@ -338,7 +444,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_getallnameurlkeys",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".getallnameurlkeys()"
     },
     {
@@ -349,7 +456,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_daos_deeplinkdao_findidbyurl",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".findidbyurl()"
     },
     {
@@ -360,6 +468,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "deeplinkdatabase.kt"
     },
     {
@@ -372,6 +481,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_deeplinkdatabase",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "deeplinkdatabase"
     },
     {
@@ -382,6 +492,7 @@
       "_origin": "ast",
       "id": "roomdatabase",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "roomdatabase"
     },
     {
@@ -393,6 +504,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_deeplinkdatabase_deeplinkdao",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".deeplinkdao()"
     },
     {
@@ -404,6 +516,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_deeplinkdatabase_tagdao",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".tagdao()"
     },
     {
@@ -415,6 +528,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_build",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "build()"
     },
     {
@@ -425,6 +539,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_kt_context",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "context"
     },
     {
@@ -437,6 +552,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_build_object_callback_l23",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "callback"
     },
     {
@@ -448,6 +564,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkdatabase_build_object_callback_l23_oncreate",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".oncreate()"
     },
     {
@@ -458,6 +575,7 @@
       "_origin": "ast",
       "id": "supportsqlitedatabase",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "supportsqlitedatabase"
     },
     {
@@ -467,7 +585,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkentity",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "deeplinkentity.kt"
     },
     {
@@ -479,7 +598,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkentity_deeplinkentity",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "deeplinkentity"
     },
     {
@@ -490,6 +610,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkwithtag",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": "deeplinkwithtag.kt"
     },
     {
@@ -502,6 +623,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_deeplinkwithtag_deeplinkwithtag",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": "deeplinkwithtag"
     },
     {
@@ -512,6 +634,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_tagentity",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": "tagentity.kt"
     },
     {
@@ -524,6 +647,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_local_tagentity_tagentity",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": "tagentity"
     },
     {
@@ -534,6 +658,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "repositories.kt"
     },
     {
@@ -546,6 +671,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "deeplinkrepository"
     },
     {
@@ -557,6 +683,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_observeall",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observeall()"
     },
     {
@@ -567,6 +694,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_kt_flow",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": "flow"
     },
     {
@@ -578,6 +706,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_observebytag",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observebytag()"
     },
     {
@@ -589,6 +718,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_upsert",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".upsert()"
     },
     {
@@ -599,7 +729,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_delete",
-      "community": 7,
+      "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".delete()"
     },
     {
@@ -611,6 +742,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_existingnameurlkeys",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".existingnameurlkeys()"
     },
     {
@@ -622,6 +754,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepository_findidbyurl",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".findidbyurl()"
     },
     {
@@ -634,6 +767,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "deeplinkrepositoryimpl"
     },
     {
@@ -645,6 +779,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_observeall",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observeall()"
     },
     {
@@ -656,6 +791,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_observebytag",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".observebytag()"
     },
     {
@@ -667,6 +803,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_upsert",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".upsert()"
     },
     {
@@ -678,6 +815,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_delete",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".delete()"
     },
     {
@@ -689,6 +827,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_existingnameurlkeys",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".existingnameurlkeys()"
     },
     {
@@ -700,6 +839,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_deeplinkrepositoryimpl_findidbyurl",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".findidbyurl()"
     },
     {
@@ -712,6 +852,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": "tagrepository"
     },
     {
@@ -723,6 +864,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository_observeall",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observeall()"
     },
     {
@@ -734,6 +876,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository_create",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".create()"
     },
     {
@@ -745,6 +888,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository_rename",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".rename()"
     },
     {
@@ -756,6 +900,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository_deleteandreassign",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".deleteandreassign()"
     },
     {
@@ -767,6 +912,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepository_getorcreatebyname",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".getorcreatebyname()"
     },
     {
@@ -779,6 +925,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": "tagrepositoryimpl"
     },
     {
@@ -790,6 +937,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl_observeall",
       "community": 6,
+      "community_name": "DeeplinkWithTag",
       "norm_label": ".observeall()"
     },
     {
@@ -801,6 +949,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl_create",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".create()"
     },
     {
@@ -812,6 +961,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl_rename",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".rename()"
     },
     {
@@ -823,6 +973,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl_deleteandreassign",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".deleteandreassign()"
     },
     {
@@ -834,6 +985,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_data_repo_repositories_tagrepositoryimpl_getorcreatebyname",
       "community": 1,
+      "community_name": "TagEntity",
       "norm_label": ".getorcreatebyname()"
     },
     {
@@ -843,7 +995,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules",
-      "community": 2,
+      "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "appmodules.kt"
     },
     {
@@ -856,6 +1009,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_databasemodule",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "databasemodule"
     },
     {
@@ -867,6 +1021,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_databasemodule_providedatabase",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".providedatabase()"
     },
     {
@@ -877,6 +1032,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_kt_context",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "context"
     },
     {
@@ -888,6 +1044,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_databasemodule_providedeeplinkdao",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".providedeeplinkdao()"
     },
     {
@@ -899,6 +1056,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_databasemodule_providetagdao",
       "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".providetagdao()"
     },
     {
@@ -910,7 +1068,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_dispatchermodule",
-      "community": 2,
+      "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "dispatchermodule"
     },
     {
@@ -921,7 +1080,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_dispatchermodule_provideiodispatcher",
-      "community": 2,
+      "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": ".provideiodispatcher()"
     },
     {
@@ -931,7 +1091,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "coroutinedispatcher",
-      "community": 2,
+      "community": 4,
+      "community_name": "DeeplinkDatabase",
       "norm_label": "coroutinedispatcher"
     },
     {
@@ -944,6 +1105,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_repositorymodule",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": "repositorymodule"
     },
     {
@@ -955,6 +1117,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_repositorymodule_binddeeplinkrepository",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".binddeeplinkrepository()"
     },
     {
@@ -966,6 +1129,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_di_appmodules_repositorymodule_bindtagrepository",
       "community": 2,
+      "community_name": "DeeplinkDao",
       "norm_label": ".bindtagrepository()"
     },
     {
@@ -976,6 +1140,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "mainscreen.kt"
     },
     {
@@ -987,6 +1152,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_mainscreen",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "mainscreen()"
     },
     {
@@ -995,8 +1161,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "mainviewmodel",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_kt_mainviewmodel",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "mainviewmodel"
     },
     {
@@ -1008,6 +1175,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_searchfield",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "searchfield()"
     },
     {
@@ -1019,6 +1187,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_emptystate",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "emptystate()"
     },
     {
@@ -1030,6 +1199,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_deeplinklist",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "deeplinklist()"
     },
     {
@@ -1041,6 +1211,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_deeplinkrow",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "deeplinkrow()"
     },
     {
@@ -1051,6 +1222,7 @@
       "_origin": "ast",
       "id": "modifier",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "modifier"
     },
     {
@@ -1062,6 +1234,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_drawercontent",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "drawercontent()"
     },
     {
@@ -1073,6 +1246,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_tagdrawerrow",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "tagdrawerrow()"
     },
     {
@@ -1084,6 +1258,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_addeditdeeplinksheet",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "addeditdeeplinksheet()"
     },
     {
@@ -1094,28 +1269,31 @@
       "_origin": "ast",
       "id": "androidx",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "androidx"
     },
     {
       "label": "ConfirmDialog()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L640",
+      "source_location": "L656",
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_confirmdialog",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "confirmdialog()"
     },
     {
       "label": "TagNameDialog()",
       "file_type": "code",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L663",
+      "source_location": "L679",
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_tagnamedialog",
       "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "tagnamedialog()"
     },
     {
@@ -1125,7 +1303,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "mainuistate.kt"
     },
     {
@@ -1137,7 +1316,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_tagfilter",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "tagfilter"
     },
     {
@@ -1149,7 +1329,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_all",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "all"
     },
     {
@@ -1161,7 +1342,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_tag",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "tag"
     },
     {
@@ -1173,7 +1355,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_sheetstate",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "sheetstate"
     },
     {
@@ -1185,7 +1368,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_hidden",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "hidden"
     },
     {
@@ -1197,7 +1381,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_add",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "add"
     },
     {
@@ -1209,7 +1394,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_edit",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "edit"
     },
     {
@@ -1221,7 +1407,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainuistate_mainuistate",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainScreen.kt",
       "norm_label": "mainuistate"
     },
     {
@@ -1232,6 +1419,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainviewmodel",
       "community": 15,
+      "community_name": "MainViewModel.kt",
       "norm_label": "mainviewmodel.kt"
     },
     {
@@ -1242,6 +1430,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_theme_theme",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "theme.kt"
     },
     {
@@ -1253,6 +1442,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_ui_theme_theme_deeplinkmanagertheme",
       "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "deeplinkmanagertheme()"
     },
     {
@@ -1263,6 +1453,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "csvexporter.kt"
     },
     {
@@ -1275,6 +1466,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvexporter",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "csvexporter"
     },
     {
@@ -1286,6 +1478,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvexporter_buildcsv",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".buildcsv()"
     },
     {
@@ -1297,6 +1490,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvexporter_escape",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".escape()"
     },
     {
@@ -1308,6 +1502,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvexporter_filename",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".filename()"
     },
     {
@@ -1320,6 +1515,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_exportresult",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "exportresult"
     },
     {
@@ -1332,6 +1528,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_success",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "success"
     },
     {
@@ -1344,6 +1541,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_error",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "error"
     },
     {
@@ -1356,6 +1554,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_permissionrequired",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "permissionrequired"
     },
     {
@@ -1368,6 +1567,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_exportstorage",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "exportstorage"
     },
     {
@@ -1379,6 +1579,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_exportstorage_savecsvtodownloads",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".savecsvtodownloads()"
     },
     {
@@ -1389,6 +1590,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_kt_context",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "context"
     },
     {
@@ -1401,6 +1603,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_parseddeeplink",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "parseddeeplink"
     },
     {
@@ -1413,6 +1616,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_importresult",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "importresult"
     },
     {
@@ -1425,6 +1629,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvimporter",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": "csvimporter"
     },
     {
@@ -1436,6 +1641,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvimporter_parse",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".parse()"
     },
     {
@@ -1447,6 +1653,7 @@
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_csvexporter_csvimporter_parserows",
       "community": 3,
+      "community_name": "CsvExporter.kt",
       "norm_label": ".parserows()"
     },
     {
@@ -1456,7 +1663,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_deeplinklauncher",
-      "community": 10,
+      "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "deeplinklauncher.kt"
     },
     {
@@ -1468,7 +1676,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_deeplinklauncher_deeplinklauncher",
-      "community": 10,
+      "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "deeplinklauncher"
     },
     {
@@ -1479,7 +1688,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_deeplinklauncher_deeplinklauncher_launch",
-      "community": 10,
+      "community": 9,
+      "community_name": "MainActivity",
       "norm_label": ".launch()"
     },
     {
@@ -1489,8 +1699,296 @@
       "source_location": "",
       "_origin": "ast",
       "id": "app_src_main_java_com_hc_deeplinkmanager_util_deeplinklauncher_kt_context",
-      "community": 10,
+      "community": 9,
+      "community_name": "MainActivity",
       "norm_label": "context"
+    },
+    {
+      "label": "ShareUrlExtractor.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor",
+      "community": 10,
+      "community_name": "ShareUrlExtractor",
+      "norm_label": "shareurlextractor.kt"
+    },
+    {
+      "label": "ShareUrlExtractor",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor",
+      "community": 10,
+      "community_name": "ShareUrlExtractor",
+      "norm_label": "shareurlextractor"
+    },
+    {
+      "label": ".extractFirstUrl()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor_extractfirsturl",
+      "community": 10,
+      "community_name": "ShareUrlExtractor",
+      "norm_label": ".extractfirsturl()"
+    },
+    {
+      "label": ".deriveName()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor_derivename",
+      "community": 10,
+      "community_name": "ShareUrlExtractor",
+      "norm_label": ".derivename()"
+    },
+    {
+      "label": "MainViewModelTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": "mainviewmodeltest.kt"
+    },
+    {
+      "label": "MainViewModelTest",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L23",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": "mainviewmodeltest"
+    },
+    {
+      "label": ".tearDown()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L29",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_teardown",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".teardown()"
+    },
+    {
+      "label": ".createViewModel()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".createviewmodel()"
+    },
+    {
+      "label": "MainViewModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_kt_mainviewmodel",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": "mainviewmodel"
+    },
+    {
+      "label": ".`valid shared url opens Add sheet with derived name`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L45",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_valid_shared_url_opens_add_sheet_with_derived_name",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".`valid shared url opens add sheet with derived name`()"
+    },
+    {
+      "label": ".`subject overrides derived name`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_subject_overrides_derived_name",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".`subject overrides derived name`()"
+    },
+    {
+      "label": ".`no url in shared text shows message and keeps sheet hidden`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L70",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_no_url_in_shared_text_shows_message_and_keeps_sheet_hidden",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".`no url in shared text shows message and keeps sheet hidden`()"
+    },
+    {
+      "label": ".`shared deeplink defaults to active filter tag`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L82",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_shared_deeplink_defaults_to_active_filter_tag",
+      "community": 8,
+      "community_name": "MainViewModelTest",
+      "norm_label": ".`shared deeplink defaults to active filter tag`()"
+    },
+    {
+      "label": "ShareUrlExtractorTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": "shareurlextractortest.kt"
+    },
+    {
+      "label": "ShareUrlExtractorTest",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": "shareurlextractortest"
+    },
+    {
+      "label": ".`extracts bare deeplink`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_extracts_bare_deeplink",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`extracts bare deeplink`()"
+    },
+    {
+      "label": ".`extracts url from prose`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_extracts_url_from_prose",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`extracts url from prose`()"
+    },
+    {
+      "label": ".`strips trailing punctuation from url`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_strips_trailing_punctuation_from_url",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`strips trailing punctuation from url`()"
+    },
+    {
+      "label": ".`takes first url when multiple present`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L33",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_takes_first_url_when_multiple_present",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`takes first url when multiple present`()"
+    },
+    {
+      "label": ".`returns null when no url`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L41",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_returns_null_when_no_url",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`returns null when no url`()"
+    },
+    {
+      "label": ".`deriveName uses host`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L47",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_uses_host",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`derivename uses host`()"
+    },
+    {
+      "label": ".`deriveName falls back to path segment`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L52",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_falls_back_to_path_segment",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`derivename falls back to path segment`()"
+    },
+    {
+      "label": ".`deriveName handles scheme-less string as host`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L57",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_handles_scheme_less_string_as_host",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`derivename handles scheme-less string as host`()"
+    },
+    {
+      "label": ".`deriveName falls back to generic when no host or path`()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L62",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_falls_back_to_generic_when_no_host_or_path",
+      "community": 7,
+      "community_name": "ShareUrlExtractorTest",
+      "norm_label": ".`derivename falls back to generic when no host or path`()"
     },
     {
       "label": "build.gradle.kts",
@@ -1500,6 +1998,7 @@
       "_origin": "ast",
       "id": "build_gradle",
       "community": 16,
+      "community_name": "build.gradle.kts",
       "norm_label": "build.gradle.kts"
     },
     {
@@ -1514,6 +2013,7 @@
       "_origin": "ast",
       "id": "gradlew",
       "community": 11,
+      "community_name": "gradlew",
       "norm_label": "gradlew"
     },
     {
@@ -1528,6 +2028,7 @@
       "_origin": "ast",
       "id": "gradlew__entry",
       "community": 11,
+      "community_name": "gradlew",
       "norm_label": "gradlew script"
     },
     {
@@ -1542,6 +2043,7 @@
       "_origin": "ast",
       "id": "gradlew_warn",
       "community": 11,
+      "community_name": "gradlew",
       "norm_label": "warn()"
     },
     {
@@ -1556,6 +2058,7 @@
       "_origin": "ast",
       "id": "gradlew_die",
       "community": 11,
+      "community_name": "gradlew",
       "norm_label": "die()"
     },
     {
@@ -1566,6 +2069,7 @@
       "_origin": "ast",
       "id": "settings_gradle",
       "community": 17,
+      "community_name": "settings.gradle.kts",
       "norm_label": "settings.gradle.kts"
     },
     {
@@ -1577,9 +2081,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents",
       "community": 0,
-      "norm_label": "agents.md (project conventions & invariants)"
+      "norm_label": "agents.md (project conventions & invariants)",
+      "_origin": "semantic",
+      "id": "agents",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Single :app module, package com.hc.deeplinkmanager",
@@ -1590,9 +2096,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_single_module",
       "community": 0,
-      "norm_label": "single :app module, package com.hc.deeplinkmanager"
+      "norm_label": "single :app module, package com.hc.deeplinkmanager",
+      "_origin": "semantic",
+      "id": "agents_single_module",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Built entirely offline; no network layer",
@@ -1604,9 +2112,11 @@
       "author": null,
       "contributor": null,
       "rationale": "App is offline-first by design; no network layer exists, so all behavior depends on local storage.",
-      "id": "agents_offline_no_network",
       "community": 0,
-      "norm_label": "built entirely offline; no network layer"
+      "norm_label": "built entirely offline; no network layer",
+      "_origin": "semantic",
+      "id": "agents_offline_no_network",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Build & test (assembleDebug / testDebugUnitTest)",
@@ -1617,9 +2127,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_build_test",
       "community": 0,
-      "norm_label": "build & test (assembledebug / testdebugunittest)"
+      "norm_label": "build & test (assembledebug / testdebugunittest)",
+      "_origin": "semantic",
+      "id": "agents_build_test",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Gradle 9.5.0 vs AGP 8.7.3/Kotlin 2.0.21 mismatch",
@@ -1631,9 +2143,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Toolchain pins sit outside each other's officially supported ranges (Kotlin 2.0.21 supports Gradle up to 8.8); plugin-internal build failures are likely caused by this mismatch, not by code changes.",
-      "id": "agents_toolchain_mismatch",
       "community": 0,
-      "norm_label": "gradle 9.5.0 vs agp 8.7.3/kotlin 2.0.21 mismatch"
+      "norm_label": "gradle 9.5.0 vs agp 8.7.3/kotlin 2.0.21 mismatch",
+      "_origin": "semantic",
+      "id": "agents_toolchain_mismatch",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "gradle/libs.versions.toml version catalog (libs.* aliases)",
@@ -1645,9 +2159,11 @@
       "author": null,
       "contributor": null,
       "rationale": "All dependencies are declared in the version catalog and referenced via libs.* aliases; never add inline coordinates.",
-      "id": "agents_dependency_management",
       "community": 0,
-      "norm_label": "gradle/libs.versions.toml version catalog (libs.* aliases)"
+      "norm_label": "gradle/libs.versions.toml version catalog (libs.* aliases)",
+      "_origin": "semantic",
+      "id": "agents_dependency_management",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Ungrouped system tag (fixed id 1)",
@@ -1659,9 +2175,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Ungrouped is a system tag with fixed id 1 (TagEntity.UNGROUPED_ID), seeded in DeeplinkDatabase.onCreate; it must never be renamed or deleted (guards in TagRepositoryImpl and MainViewModel).",
-      "id": "agents_ungrouped_tag",
       "community": 0,
-      "norm_label": "ungrouped system tag (fixed id 1)"
+      "norm_label": "ungrouped system tag (fixed id 1)",
+      "_origin": "semantic",
+      "id": "agents_ungrouped_tag",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Tag delete reassigns deeplinks to Ungrouped",
@@ -1672,9 +2190,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_tag_delete_reassign",
       "community": 0,
-      "norm_label": "tag delete reassigns deeplinks to ungrouped"
+      "norm_label": "tag delete reassigns deeplinks to ungrouped",
+      "_origin": "semantic",
+      "id": "agents_tag_delete_reassign",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Client-side duplicate URL guard",
@@ -1686,9 +2206,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Duplicate URLs are only guarded client-side (MainViewModel.save via findIdByUrl); there is no DB unique index on url, so the guard must be kept when changing save logic.",
-      "id": "agents_duplicate_url_guard",
       "community": 0,
-      "norm_label": "client-side duplicate url guard"
+      "norm_label": "client-side duplicate url guard",
+      "_origin": "semantic",
+      "id": "agents_duplicate_url_guard",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Case-insensitive unique tag names",
@@ -1700,9 +2222,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Tag names are unique case-insensitively via a unique DB index plus a TagNameDialog already-exists check.",
-      "id": "agents_case_insensitive_tag_names",
       "community": 0,
-      "norm_label": "case-insensitive unique tag names"
+      "norm_label": "case-insensitive unique tag names",
+      "_origin": "semantic",
+      "id": "agents_case_insensitive_tag_names",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "DeeplinkRepository.upsert id==0 means insert",
@@ -1714,9 +2238,11 @@
       "author": null,
       "contributor": null,
       "rationale": "DeeplinkRepository.upsert treats id == 0L as insert, otherwise update; preserving this contract matters for the repository API.",
-      "id": "agents_upsert_id_zero",
       "community": 0,
-      "norm_label": "deeplinkrepository.upsert id==0 means insert"
+      "norm_label": "deeplinkrepository.upsert id==0 means insert",
+      "_origin": "semantic",
+      "id": "agents_upsert_id_zero",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Destructive Room migration wipes user data",
@@ -1728,9 +2254,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Room uses fallbackToDestructiveMigration() and exportSchema = false: schema changes wipe user data and no migration scripts exist, so schema changes carry a high data-loss cost.",
-      "id": "agents_destructive_migration",
       "community": 0,
-      "norm_label": "destructive room migration wipes user data"
+      "norm_label": "destructive room migration wipes user data",
+      "_origin": "semantic",
+      "id": "agents_destructive_migration",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "@IoDispatcher qualifier for IO coroutines",
@@ -1741,9 +2269,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_io_dispatcher",
       "community": 0,
-      "norm_label": "@iodispatcher qualifier for io coroutines"
+      "norm_label": "@iodispatcher qualifier for io coroutines",
+      "_origin": "semantic",
+      "id": "agents_io_dispatcher",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "MainScreen.kt holds all composables",
@@ -1754,9 +2284,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_main_screen",
       "community": 0,
-      "norm_label": "mainscreen.kt holds all composables"
+      "norm_label": "mainscreen.kt holds all composables",
+      "_origin": "semantic",
+      "id": "agents_main_screen",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Layers: ui/, data/local, data/repo, di, util",
@@ -1767,9 +2299,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_layer_layout",
       "community": 0,
-      "norm_label": "layers: ui/, data/local, data/repo, di, util"
+      "norm_label": "layers: ui/, data/local, data/repo, di, util",
+      "_origin": "semantic",
+      "id": "agents_layer_layout",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Hilt dependency injection setup",
@@ -1780,9 +2314,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_hilt_di",
       "community": 0,
-      "norm_label": "hilt dependency injection setup"
+      "norm_label": "hilt dependency injection setup",
+      "_origin": "semantic",
+      "id": "agents_hilt_di",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "CSV import/export (CsvExporter, CsvImporter, ExportStorage)",
@@ -1793,9 +2329,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_csv_import_export",
       "community": 0,
-      "norm_label": "csv import/export (csvexporter, csvimporter, exportstorage)"
+      "norm_label": "csv import/export (csvexporter, csvimporter, exportstorage)",
+      "_origin": "semantic",
+      "id": "agents_csv_import_export",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Tech stack (Kotlin, Compose, MVVM/Clean, Hilt, Room)",
@@ -1806,9 +2344,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_tech_stack",
       "community": 0,
-      "norm_label": "tech stack (kotlin, compose, mvvm/clean, hilt, room)"
+      "norm_label": "tech stack (kotlin, compose, mvvm/clean, hilt, room)",
+      "_origin": "semantic",
+      "id": "agents_tech_stack",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "README.md (Deeplink Manager)",
@@ -1819,9 +2359,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme",
       "community": 0,
-      "norm_label": "readme.md (deeplink manager)"
+      "norm_label": "readme.md (deeplink manager)",
+      "_origin": "semantic",
+      "id": "readme",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Deeplink Manager app",
@@ -1832,9 +2374,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_deeplink_manager",
       "community": 0,
-      "norm_label": "deeplink manager app"
+      "norm_label": "deeplink manager app",
+      "_origin": "semantic",
+      "id": "readme_deeplink_manager",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "100% offline, data never leaves device",
@@ -1846,9 +2390,11 @@
       "author": null,
       "contributor": null,
       "rationale": "No accounts, no sync, no analytics, no network calls - everything runs on local storage; privacy/offline is a core selling point for devs and QA.",
-      "id": "readme_offline_first",
       "community": 0,
-      "norm_label": "100% offline, data never leaves device"
+      "norm_label": "100% offline, data never leaves device",
+      "_origin": "semantic",
+      "id": "readme_offline_first",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Tag & Organize feature (multi-tag, filter)",
@@ -1859,9 +2405,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_tag_organize",
       "community": 0,
-      "norm_label": "tag & organize feature (multi-tag, filter)"
+      "norm_label": "tag & organize feature (multi-tag, filter)",
+      "_origin": "semantic",
+      "id": "readme_tag_organize",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Add deeplinks (name, description, URL scheme, tags)",
@@ -1872,9 +2420,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_add_deeplinks",
       "community": 0,
-      "norm_label": "add deeplinks (name, description, url scheme, tags)"
+      "norm_label": "add deeplinks (name, description, url scheme, tags)",
+      "_origin": "semantic",
+      "id": "readme_add_deeplinks",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Edit anytime feature",
@@ -1885,9 +2435,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_edit_anytime",
       "community": 0,
-      "norm_label": "edit anytime feature"
+      "norm_label": "edit anytime feature",
+      "_origin": "semantic",
+      "id": "readme_edit_anytime",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Delete with confirmation dialogs",
@@ -1898,9 +2450,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_delete_confidence",
       "community": 0,
-      "norm_label": "delete with confirmation dialogs"
+      "norm_label": "delete with confirmation dialogs",
+      "_origin": "semantic",
+      "id": "readme_delete_confidence",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Import feature (JSON file)",
@@ -1911,9 +2465,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_import",
       "community": 0,
-      "norm_label": "import feature (json file)"
+      "norm_label": "import feature (json file)",
+      "_origin": "semantic",
+      "id": "readme_import",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Export feature (JSON file)",
@@ -1924,9 +2480,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_export",
       "community": 0,
-      "norm_label": "export feature (json file)"
+      "norm_label": "export feature (json file)",
+      "_origin": "semantic",
+      "id": "readme_export",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "Tech stack table (Kotlin, Compose, MVVM, Hilt, Room)",
@@ -1937,9 +2495,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_tech_stack",
       "community": 0,
-      "norm_label": "tech stack table (kotlin, compose, mvvm, hilt, room)"
+      "norm_label": "tech stack table (kotlin, compose, mvvm, hilt, room)",
+      "_origin": "semantic",
+      "id": "readme_tech_stack",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "MIT License",
@@ -1950,9 +2510,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_mit_license",
       "community": 0,
-      "norm_label": "mit license"
+      "norm_label": "mit license",
+      "_origin": "semantic",
+      "id": "readme_mit_license",
+      "community_name": "AGENTS.md (project conventions & invariants)"
     },
     {
       "label": "App Launcher Icon (main source set)",
@@ -1963,9 +2525,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_src_main_res_mipmap_ic_launcher_app_icon",
       "community": 13,
-      "norm_label": "app launcher icon (main source set)"
+      "norm_label": "app launcher icon (main source set)",
+      "_origin": "semantic",
+      "id": "app_src_main_res_mipmap_ic_launcher_app_icon",
+      "community_name": "App Launcher Icon (debug source set)"
     },
     {
       "label": "App Launcher Icon (debug source set)",
@@ -1976,12 +2540,36 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_src_debug_mipmap_ic_launcher_app_icon",
       "community": 13,
-      "norm_label": "app launcher icon (debug source set)"
+      "norm_label": "app launcher icon (debug source set)",
+      "_origin": "semantic",
+      "id": "app_src_debug_mipmap_ic_launcher_app_icon",
+      "community_name": "App Launcher Icon (debug source set)"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "opencode_plugins_graphify",
+      "target": "opencode_plugins_graphify_graphifyplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "opencode_plugins_graphify_rationale_4",
+      "target": "opencode_plugins_graphify",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2008,7 +2596,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L11",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity",
@@ -2016,10 +2604,33 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_kt_mainviewmodel",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L13",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_handleshareintent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
@@ -2027,10 +2638,21 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_onnewintent",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L11",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity",
@@ -2040,10 +2662,22 @@
     {
       "relation": "calls",
       "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_handleshareintent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L18",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_oncreate",
@@ -2055,7 +2689,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L17",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_oncreate",
@@ -2065,13 +2699,61 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
-      "source_location": "L13",
+      "source_location": "L19",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_oncreate",
       "target": "bundle",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_onnewintent",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_handleshareintent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_onnewintent",
+      "target": "intent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/MainActivity.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_mainactivity_mainactivity_handleshareintent",
+      "target": "intent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/DeeplinkLauncher.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_util_deeplinklauncher_deeplinklauncher_launch",
+      "target": "intent"
     },
     {
       "relation": "contains",
@@ -2937,7 +3619,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L663",
+      "source_location": "L679",
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
@@ -3511,7 +4193,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L640",
+      "source_location": "L656",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen",
@@ -3599,7 +4281,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L663",
+      "source_location": "L679",
       "weight": 1.0,
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen",
@@ -3667,6 +4349,18 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
+      "source_location": "L88",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_mainscreen",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_kt_mainviewmodel",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -3688,18 +4382,6 @@
       "_origin": "ast",
       "source": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_mainscreen",
       "target": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_tagnamedialog",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/hc/deeplinkmanager/ui/main/MainScreen.kt",
-      "source_location": "L88",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_hc_deeplinkmanager_ui_main_mainscreen_mainscreen",
-      "target": "mainviewmodel",
       "confidence_score": 1.0
     },
     {
@@ -4169,6 +4851,286 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor_derivename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/hc/deeplinkmanager/util/ShareUrlExtractor.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor",
+      "target": "app_src_main_java_com_hc_deeplinkmanager_util_shareurlextractor_shareurlextractor_extractfirsturl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_no_url_in_shared_text_shows_message_and_keeps_sheet_hidden",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_shared_deeplink_defaults_to_active_filter_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_subject_overrides_derived_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_teardown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_valid_shared_url_opens_add_sheet_with_derived_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_kt_mainviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_no_url_in_shared_text_shows_message_and_keeps_sheet_hidden",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_shared_deeplink_defaults_to_active_filter_tag",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_subject_overrides_derived_name",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/ui/main/MainViewModelTest.kt",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_valid_shared_url_opens_add_sheet_with_derived_name",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_ui_main_mainviewmodeltest_mainviewmodeltest_createviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_falls_back_to_generic_when_no_host_or_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_falls_back_to_path_segment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_handles_scheme_less_string_as_host",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_derivename_uses_host",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_extracts_bare_deeplink",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_extracts_url_from_prose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_returns_null_when_no_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_strips_trailing_punctuation_from_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/hc/deeplinkmanager/util/ShareUrlExtractorTest.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest",
+      "target": "app_src_test_java_com_hc_deeplinkmanager_util_shareurlextractortest_shareurlextractortest_takes_first_url_when_multiple_present",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "gradlew",
       "source_location": "L1",
       "weight": 1.0,
@@ -4230,6 +5192,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_build_test"
     },
@@ -4240,6 +5203,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_case_insensitive_tag_names"
     },
@@ -4250,6 +5214,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_csv_import_export"
     },
@@ -4260,6 +5225,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_dependency_management"
     },
@@ -4270,6 +5236,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_destructive_migration"
     },
@@ -4280,6 +5247,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_duplicate_url_guard"
     },
@@ -4290,6 +5258,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_hilt_di"
     },
@@ -4300,6 +5269,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_io_dispatcher"
     },
@@ -4310,6 +5280,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_layer_layout"
     },
@@ -4320,6 +5291,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_main_screen"
     },
@@ -4330,6 +5302,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_offline_no_network"
     },
@@ -4340,6 +5313,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_single_module"
     },
@@ -4350,6 +5324,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_tag_delete_reassign"
     },
@@ -4360,6 +5335,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_tech_stack"
     },
@@ -4370,6 +5346,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_toolchain_mismatch"
     },
@@ -4380,6 +5357,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_ungrouped_tag"
     },
@@ -4390,6 +5368,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "agents_upsert_id_zero"
     },
@@ -4400,6 +5379,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents",
       "target": "readme"
     },
@@ -4410,6 +5390,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_offline_first",
       "target": "agents_offline_no_network"
     },
@@ -4420,6 +5401,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents_ungrouped_tag",
       "target": "agents_tag_delete_reassign"
     },
@@ -4430,6 +5412,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_tag_organize",
       "target": "agents_ungrouped_tag"
     },
@@ -4440,6 +5423,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents_csv_import_export",
       "target": "readme_export"
     },
@@ -4450,6 +5434,7 @@
       "source_file": "AGENTS.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "agents_csv_import_export",
       "target": "readme_import"
     },
@@ -4460,6 +5445,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_tech_stack",
       "target": "agents_tech_stack"
     },
@@ -4470,6 +5456,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_add_deeplinks"
     },
@@ -4480,6 +5467,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_deeplink_manager"
     },
@@ -4490,6 +5478,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_delete_confidence"
     },
@@ -4500,6 +5489,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_edit_anytime"
     },
@@ -4510,6 +5500,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_export"
     },
@@ -4520,6 +5511,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_import"
     },
@@ -4530,6 +5522,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_mit_license"
     },
@@ -4540,6 +5533,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_offline_first"
     },
@@ -4550,6 +5544,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_tag_organize"
     },
@@ -4560,6 +5555,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme",
       "target": "readme_tech_stack"
     },
@@ -4570,6 +5566,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "readme_import",
       "target": "readme_export"
     },
@@ -4580,6 +5577,7 @@
       "source_file": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
       "source_location": null,
       "weight": 1.0,
+      "_origin": "semantic",
       "source": "app_src_debug_mipmap_ic_launcher_app_icon",
       "target": "app_src_main_res_mipmap_ic_launcher_app_icon"
     }
@@ -4628,5 +5626,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "4590dd25edd4e1d0a0ff3bfa1bc40ead361c013a"
+  "built_at_commit": "5f617f8988e82f0c57854a2852fcfd37b71b7579"
 }

@@ -11,7 +11,7 @@ sealed interface TagFilter {
 
 sealed interface SheetState {
     data object Hidden : SheetState
-    data class Add(val tagId: Long) : SheetState
+    data class Add(val tagId: Long, val name: String = "", val url: String = "") : SheetState
     data class Edit(val deeplink: DeeplinkEntity) : SheetState
 }
 

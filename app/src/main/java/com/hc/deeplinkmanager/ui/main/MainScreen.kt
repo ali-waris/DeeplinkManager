@@ -529,8 +529,24 @@ private fun AddEditDeeplinkSheet(
         is SheetState.Edit -> sheet.deeplink.tagId
         else -> TagEntity.UNGROUPED_ID
     }
-    var name by remember(sheet) { mutableStateOf(editing?.deeplink?.name ?: "") }
-    var url by remember(sheet) { mutableStateOf(editing?.deeplink?.url ?: "") }
+    var name by remember(sheet) {
+        mutableStateOf(
+            when (sheet) {
+                is SheetState.Edit -> sheet.deeplink.name
+                is SheetState.Add -> sheet.name
+                else -> ""
+            }
+        )
+    }
+    var url by remember(sheet) {
+        mutableStateOf(
+            when (sheet) {
+                is SheetState.Edit -> sheet.deeplink.url
+                is SheetState.Add -> sheet.url
+                else -> ""
+            }
+        )
+    }
     var tagId by remember(sheet) { mutableStateOf(initialTagId) }
     var nameError by remember { mutableStateOf<String?>(null) }
     var urlError by remember { mutableStateOf<String?>(null) }

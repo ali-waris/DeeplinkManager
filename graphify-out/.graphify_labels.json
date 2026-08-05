@@ -1,1 +1,21 @@
-{"0": "Project Conventions", "1": "Tag Data Layer", "2": "Deeplink Repo & DI", "3": "CSV Import/Export", "4": "Room Database Setup", "5": "Compose UI Screens", "6": "Flow Query Layer", "7": "Deeplink DAO & Entity", "8": "UI State & Sheet", "9": "App Entry & Theme", "10": "Deep Link Launching", "11": "Gradle Wrapper", "12": "Application Class", "13": "App Launcher Icons", "14": "App Build Config", "15": "Main ViewModel", "16": "Root Build Config", "17": "Gradle Settings"}
+{
+  "0": "AGENTS.md (project conventions & invariants)",
+  "1": "TagEntity",
+  "2": "DeeplinkDao",
+  "3": "CsvExporter.kt",
+  "4": "DeeplinkDatabase",
+  "5": "MainScreen.kt",
+  "6": "DeeplinkWithTag",
+  "7": "ShareUrlExtractorTest",
+  "8": "MainViewModelTest",
+  "9": "MainActivity",
+  "10": "ShareUrlExtractor",
+  "11": "gradlew",
+  "12": "DeeplinkApp",
+  "13": "App Launcher Icon (debug source set)",
+  "14": "app/build.gradle.kts",
+  "15": "MainViewModel.kt",
+  "16": "build.gradle.kts",
+  "17": "settings.gradle.kts",
+  "18": "graphify.js"
+}

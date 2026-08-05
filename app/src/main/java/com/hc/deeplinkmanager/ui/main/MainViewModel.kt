@@ -15,6 +15,7 @@ import com.hc.deeplinkmanager.util.CsvImporter
 import com.hc.deeplinkmanager.util.ExportResult
 import com.hc.deeplinkmanager.util.ExportStorage
 import com.hc.deeplinkmanager.util.ImportResult
+import com.hc.deeplinkmanager.util.ShareUrlExtractor
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -70,6 +71,21 @@ class MainViewModel @Inject constructor(
 
     fun onSearchQueryChange(query: String) {
         _internal.update { it.copy(searchQuery = query) }
+    }
+
+    /**
+     * Entry point for URLs shared into the app (ACTION_SEND). Opens the add sheet prefilled
+     * with the extracted URL and a derived/subject name; rejects text with no recognizable URL.
+     */
+    fun onSharedText(text: String, subject: String?) {
+        val url = ShareUrlExtractor.extractFirstUrl(text)
+        if (url == null) {
+            _internal.update { it.copy(transientMessage = "No valid URL found in shared text") }
+            return
+        }
+        val tagId = (_filter.value as? TagFilter.Tag)?.tagId ?: TagEntity.UNGROUPED_ID
+        val name = subject?.trim()?.takeIf { it.isNotEmpty() } ?: ShareUrlExtractor.deriveName(url)
+        _internal.update { it.copy(sheet = SheetState.Add(tagId = tagId, name = name, url = url)) }
     }
 
     fun openAddSheet() {
